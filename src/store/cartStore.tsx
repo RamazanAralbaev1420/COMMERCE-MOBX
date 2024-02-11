@@ -1,6 +1,5 @@
 import { makeAutoObservable } from 'mobx';
 import { IProducts } from '../types/data';
-import { log } from 'console';
 
 class CartStore {
   cartProductsStore: IProducts[] = [];
@@ -50,7 +49,6 @@ class CartStore {
         count: 1,
       });
       this.price += item.price;
-      console.log(this.cartProductsStore[0].count);
     }
   }
 

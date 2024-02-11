@@ -3,7 +3,6 @@ import React, { useState } from 'react';
 import cartStore from '../store/cartStore';
 import { FaRegTrashAlt } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
-import BuyProducts from './BuyProducts';
 
 const Cart: React.FC = observer(() => {
   return (
